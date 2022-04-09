@@ -16,5 +16,5 @@ export async function middleware(req){
     }
 
 
-   else if(!token && pathname !== '/login'){return NextResponse.redirect('https://leeroy-kiplagat-spotifyclone.vercel.app'); }
+   else if(!token && pathname !== '/login'){return NextResponse.redirect('https://leeroy-kiplagat-spotifyclone.vercel.app/login'); }
 }
